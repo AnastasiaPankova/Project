@@ -1,7 +1,7 @@
 <!DOCTYPE html>
   <head> 
      <meta charset='utf-8'>
-	 <link rel='stylesheet' href='style1.css'>
+	 <link rel='stylesheet' href='style.css'>
 		<title> </title> 
   </head> 
   <body> 
@@ -14,8 +14,8 @@
 			<li><form>
 				<label> <input type='text' name='search' value='Поиск по сайту'>  </label>
 				</form>
-			<li>	<img src='#'> <a href='#'> Личный кабинет</a> </li>
-			<li>    <img src='#'> <a href='#'> Корзина </a> </li>
+			<li>	<img src='#'> <a class='privateroom' href='#'> Личный кабинет</a> </li>
+			<li>    <img src='#'> <a class='basket' href='#'> Корзина </a> </li>
 			</ul>
 	  </div>
           <ul class="assortiment">
@@ -64,18 +64,20 @@
 				  <li><a href='#'><h3>моноблоки и ноутбуки </h3> </li>    
 			  </ul>		 
 		</section>
-			
+			 <div class='dividing-line'>
 		<section class='servises'>
-			
+			<div class='servisesimg'>
                 <label>  Доставка  <input type="radio"> </label>
                 <label>  Гарантия  <input type="radio"> </label>
                 <label>  Кредит    <input type="radio"> </label>
-        <div class='dividing-line'>
+       <div class='dividing-line1'>
+	   <div class='slidersrvs'>
 			<h2>Гарантия</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
             </p>
             <img src="" alt="Services">
 		</section>
+		
 			
 		<section class='partners'>
 			<ul> 
@@ -91,7 +93,10 @@
 		</section>
 			
 		<section class='our_company'>
-            <h2>Наша компания</h2>
+			<div class='company'>
+            <h3>Наша компания</h3>
+			<div class='dividinglinecompany'> </div>
+  
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			</p>
 				<ul>
@@ -102,37 +107,42 @@
 		</section>
 			
 		<section class='mail_dispatch'>
-			 <h2> Почтовая рассылка</h2>
-             <p>  Узнавайте первым о новостях, акциях и скидках интернет-магазина.</p>
+			 <h3> Почтовая рассылка</h3>
+             <p class='Start'>  Узнавайте первым о новостях, акциях и скидках интернет-магазина.</p>
 				<form>
             <input type="e-mail">
-				<p>Указанная информация не будет передана третьим лицам. Вы можете отписаться от почтовой рассылки в любое время</p>
+				<p class='end'>Указанная информация не будет передана третьим лицам. Вы можете отписаться от почтовой рассылки в любое время</p>
             <input type="submit" value="Подписаться">
 				</form>	
 		</section>	
 	</main>
 		
-	<footer> 
-		  <img src='' alt='MAGNO'> 
-			<ul>
-                <li>МОСКВА, ул. СТРОИТЕЛЕЙ, 15 к 1 офис 456</li>
-                <li> <a href="tel:8-800-5000-616"></a></li>
-                <li> <a href="#">Личный кабинет</a></li>
-                <li> <a href="#">Корзина</a></li>
-            </ul>
-			
+	<footer>
+		<div class='info'>
+		  <div class='pistures'> 
+		  <img src='' alt='MAGNO'> </div>
+		  <div class='footer-info'>
+			<p>МОСКВА, ул. СТРОИТЕЛЕЙ, 15 к 1 офис 456</p>
+			<a href="tel:">8-800-50-00-16</a>
+			</div>
+			<div class="bottomnavigation">
+                <a class="privateroom2" href="#">Личный кабинет</a>
+                <a class="basket2" href="#">Корзина</a>
+            </div>
 			<div class='servises_bottom'>
 			 <ul>
                 <li> <a href="#">Доставка</a> </li>
                 <li> <a href="#">Гарантия</a> </li>
                 <li> <a href="#">Контакты</a> </li>
             </ul>
+			 <img src="" alt="map-servise">
 			</div>
 			
-			<!-- <div class='map'> -->
+		
 			
-			<p class='protection'>Все права защищены <p>
-			<div class='icons'> 
+			<div class='protection'>
+			<p>Все права защищены <p>
+			 
 				<ul> 
 					<li> <img src='#'> </li>
 					<li> <img src='#'> </li>
